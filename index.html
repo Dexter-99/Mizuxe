@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MIZUXE</title>
+    <script
+      src="https://kit.fontawesome.com/6411353ab6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body data-spy="scroll" data-target="#main-navbar" id="home">
+    <nav
+      class="fixed-top navbar navbar-expand-md navbar-light"
+      id="main-navbar"
+    >
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <img src="./img/mlogo.png" alt="" width="50" height="50" />
+          <h3 class="d-inline align-middle">MIZUXE</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#authors-section" class="nav-link">Meet the Authors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="home-section">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center text-white mt-5 mb-3">
+            <h1 class="display-2  mb-3 pt-5">Do What You Dream Of</h1>
+            <p class="lead mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum, voluptatem.
+            </p>
+            <a href="" class="btn btn-outline-secondary text-white">
+              <i class="fas fa-arrow-right"></i> Read More</a
+            >
+          </div>
+          <div class="col-lg-6 d-lg-block" data-tilt>
+            <img src="./img/book.png" class="img-fluid js-tilt" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="form-section" class="bg-secondary py-5">
+      <div class="container">
+        <form action="">
+          <div class="row">
+            <div class="col-sm-4 mb-4">
+              <input
+                type="text"
+                placeholder="Enter Username"
+                class="form-control form-control-lg"
+              />
+            </div>
+            <div class="col-sm-4 mb-4">
+              <input
+                type="email"
+                placeholder="Enter Email"
+                class="form-control form-control-lg"
+              />
+            </div>
+            <div class="col-sm-4 mb-4">
+              <button class="btn btn-primary btn-lg btn-block">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="info-section" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 mb-4">
+            <div class="card border border-primary">
+              <div class="card-body text-center">
+                <h3 class="text-primary">Be Better</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Error, dolor?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-4">
+            <div class="card text-white bg-primary">
+              <div class="card-body text-center">
+                <h3>Be Faster</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Error, dolor?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-4">
+            <div class="card border border-primary">
+              <div class="card-body text-center">
+                <h3 class="text-primary">Be Stronger</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Error, dolor?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-4">
+            <div class="card bg-primary text-white">
+              <div class="card-body text-center">
+                <h3>Be Smarter</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Error, dolor?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-section" class="py-5 bg-tertiary">
+      <div class="container">
+        <h1 class="text-center mb-4 text-primary">Why This Book ?</h2>
+        <p class="lead text-center mb-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          officia fuga commodi quod adipisci officiis.
+        </p>
+        <div id="accordion" class="mt-5"></div>
+          <div class="card">
+            <div class="card-header">
+              <h4
+                class="text-center"
+                href="#collapse-1"
+                data-parent="#accordion"
+                data-toggle="collapse"
+              >
+                <i class="fas fa-arrow-circle-down mr-3 text-primary "></i>Get Inspired
+              </h4>
+            </div>
+            <div id="collapse-1" class="card-body collapse">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              obcaecati ad, rerum optio fuga sit, deserunt repellat sint, itaque
+              cupiditate atque vel quasi incidunt laudantium soluta nemo!
+              Temporibus, fugit quas.
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h4
+                class="text-center"
+                href="#collapse-2"
+                data-parent="#accordion"
+                data-toggle="collapse"
+              >
+                <i class="fas fa-arrow-circle-down mr-3 text-primary"></i>Gain the
+                Knowledge
+              </h4>
+            </div>
+            <div id="collapse-2" class="collapse card-body">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              obcaecati ad, rerum optio fuga sit, deserunt repellat sint, itaque
+              cupiditate atque vel quasi incidunt laudantium soluta nemo!
+              Temporibus, fugit quas.
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h4
+                class="text-center"
+                href="#collapse-3"
+                data-parent="#accordion"
+                data-toggle="collapse"
+              >
+                <i class="fas fa-arrow-circle-down mr-3 text-primary"></i>Open Your
+                Mind
+              </h4>
+            </div>
+            <div id="collapse-3" class="card-body collapse ">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              obcaecati ad, rerum optio fuga sit, deserunt repellat sint, itaque
+              cupiditate atque vel quasi incidunt laudantium soluta nemo!
+              Temporibus, fugit quas.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="authors-section" class="py-5">
+      <div class="container">
+        <h1 class="text-primary text-center mb-4">Meet The Authors</h1>
+        <p class="lead text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cumque debitis sed dolore, dolores ducimus ea inventore cum aliquid neque.</p>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5">
+            <div class="card">
+              <div class="card-body text-center">
+                  <img src="./img/person1.jpg" class="img-fluid rounded-circle w-50 mb-3" alt=""> 
+                 <h3>Susan Williams</h3>
+                 <h4 class="text-muted">Lead Writer</h4>
+                 <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 </p>
+                 <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="https://www.facebook.com">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.twitter.com">
+                      <i class="fab fa-twitter "></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.instagram.com">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <div class="card">
+              <div class="card-body text-center">
+                  <img src="./img/person2.jpg" class="img-fluid rounded-circle w-50 mb-3" alt="">
+                <h3>Grace Smith</h3>
+                 <h4 class="text-muted">Co-Writer</h4>
+                 <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 </p>
+                 <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="https://www.facebook.com">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.twitter.com">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.instagram.com">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="./img/person3.jpg" class="img-fluid rounded-circle w-50 mb-3" alt="">
+                <h3>John Doe</h3>
+                 <h4 class="text-muted">Editor</h4>
+                 <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 </p>
+                 <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="https://www.facebook.com">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.twitter.com">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.instagram.com">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <div class="card">
+              <div class="card-body text-center">
+                  <img src="./img/person4.jpg" class="img-fluid rounded-circle w-50 mb-3" alt="">
+                <h3>Kevin Swanson</h3>
+                 <h4 class="text-muted">Designer</h4>
+                 <p >
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 </p>
+                 <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="https://www.facebook.com">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.twitter.com">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.instagram.com">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact-section" class="py-5 bg-tertiary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 py-4">
+            <h3>GET IN TOUCH</h3>
+            <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, vel?</p>
+            <form action="">
+              <div class="input-group mb-4">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input placeholder="Name" type="text" class="form-control form-control-lg">
+              </div>
+              <div class="input-group mb-4">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                     <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                  <input type="email" placeholder="Email" class="form-control form-control-lg">
+              </div>
+              <div class="input-group mb-4">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea class="form-control form-control-lg" placeholder="Message">
+
+                </textarea>
+              </div>
+              <button class="btn btn-block btn-primary btn-lg">Submit</button>
+            </form>
+          </div>
+          <div class="col-lg-3 align-self-center" data-tilt>
+            <img src="./img/mlogo.png" class="img-fluid rounded-circle " alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer-section" class="bg-primary py-5 text-white text-center">
+      <div class="container">
+        <h5>Copyright &copy; 2019</h5>
+        <small class="font-italic">Developed By Dexter</small>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="jquery.js" ></script>
+    <script src="tilt.js"></script> 
+    <script>
+    $('body').scrollspy({target:'#main-navbar'});
+    // $('.js-tilt').tilt({
+    // axis: x
+    // });
+    </script>
+  </body>
+</html>
