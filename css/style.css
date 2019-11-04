@@ -23,11 +23,14 @@
 #authors-section img {
   margin-top: -50px; }
 #authors-section .card:hover {
+  transition: all 0.5s ease-in-out;
   background: #480d3a;
   color: white; }
   #authors-section .card:hover .fab {
     display: block;
     color: white; }
 
-html {
-  scroll-behavior: smooth; }
+#collapse-1,
+#collapse-2,
+#collapse-3 {
+  transition: all 1s ease-in-out; }
